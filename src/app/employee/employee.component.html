@@ -1,0 +1,17 @@
+<form action="">
+<div>
+    <input name="empid" #type="text" [(ngModel)]="model.empid" class="form-control" placeholder="Enter employeeid"><br>
+</div>
+<div>
+    <input name="name" type="text"  [(ngModel)]="model.name" class="form-control" placeholder="Enter employee name"><br>
+</div>
+<div>
+    <input name="age" type="text"  [(ngModel)]="model.age" class="form-control" placeholder="Enter employee age"><br>
+</div>
+<div>
+    <input name="salary" type="text"  [(ngModel)]="model.salary" class="form-control" placeholder="Enter employee salary"><br>
+</div>
+<div>
+    <button (click)="save()" class="btn btn-primary">Save</button>
+</div>
+</form>
